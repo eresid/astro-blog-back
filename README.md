@@ -1,6 +1,6 @@
-## About
+## Express Blog Example
 
-This project was created with [express-generator-typescript](https://github.com/seanpmaxwell/express-generator-typescript).
+This is back end part for [astro-blog example](https://github.com/eresid/astro-blog/).
 
 
 ## Available Scripts
@@ -41,3 +41,10 @@ Run production build with a different env file.
 ## Additional Notes
 
 - If `npm run dev` gives you issues with bcrypt on MacOS you may need to run: `npm rebuild bcrypt --build-from-source`. 
+
+## Kill app with some port
+
+```
+sudo lsof -i :5000
+kill -9 <PID>
+```
